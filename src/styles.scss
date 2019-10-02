@@ -1,0 +1,26 @@
+$font-stack :    Helvetica, sans-serif;
+$primary-color : #333;
+
+body {
+  
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h1 {
+  color: #369;
+  font-family: $font-stack;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: $font-stack;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
